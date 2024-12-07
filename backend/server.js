@@ -33,7 +33,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 const db = mysql.createConnection({
   host: "localhost", // Your MySQL host
   user: "root", // Your MySQL username
-  password: "Bhavya@1234", // Your MySQL password
+  password: "", // Your MySQL password
   database: "vendor_management", // Replace with your actual database name
 });
 
